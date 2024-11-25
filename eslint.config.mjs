@@ -20,6 +20,9 @@ export default [
         }
     }
   }, 
+{
+   ignores: ['node_modules/', 'dist/', 'public/', 'build/'], // Ignora la carpetas
+},
   pluginJs.configs.recommended,
   eslintPluginPrettier,
   ...tseslint.configs.recommended,
